@@ -1,0 +1,317 @@
+.section {
+  width: 100vw;
+  height: 100vh;
+  padding: 40px 60px;
+  background-color: #121212;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link.w--current {
+  position: absolute;
+  left: 60px;
+  top: 40px;
+  right: auto;
+  bottom: auto;
+  font-family: Jetbrainsmono, sans-serif;
+  color: #fff;
+  font-size: 30px;
+  line-height: 100%;
+}
+
+.text-block {
+  position: static;
+  left: 60px;
+  bottom: 40px;
+  display: inline-block;
+  margin-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-family: Jetbrainsmono, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 200;
+}
+
+.text-block.footer {
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  font-size: 30px;
+  line-height: 120%;
+}
+
+.text-block.tag {
+  color: #ffe100;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 200;
+}
+
+.text-block.soon {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-bottom: 1px solid #fff;
+  color: hsla(0, 0%, 100%, 0.3);
+  line-height: 20px;
+  font-style: italic;
+}
+
+.typed {
+  position: static;
+  left: 0%;
+  top: auto;
+  right: auto;
+  bottom: 0%;
+  margin-left: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  font-family: Jetbrainsmono, sans-serif;
+  color: #ffe100;
+  font-size: 30px;
+  line-height: 120%;
+  font-weight: 200;
+}
+
+.div-block {
+  position: absolute;
+  left: 60px;
+  top: auto;
+  right: auto;
+  bottom: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Jetbrainsmono, sans-serif;
+  color: #ffe100;
+  font-size: 18px;
+  line-height: 120%;
+  font-weight: 200;
+}
+
+.div-block-2 {
+  position: absolute;
+  left: auto;
+  top: 40px;
+  right: 60px;
+  bottom: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 8px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  border-right: 1px solid #fff;
+}
+
+.link-2 {
+  margin-bottom: 8px;
+  font-family: Jetbrainsmono, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration: none;
+}
+
+.link-2:hover {
+  border-bottom: 1px solid #fff;
+  line-height: 20px;
+}
+
+.link-2.social {
+  margin-top: 8px;
+}
+
+.div-block-3 {
+  width: 180px;
+  height: 1px;
+  margin-top: 6px;
+  margin-bottom: 14px;
+  background-color: #fff;
+}
+
+.section-2 {
+  width: 100vw;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  background-color: #121212;
+}
+
+.div-block-4 {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 60px;
+  bottom: 40px;
+}
+
+.div-block-5 {
+  margin: auto;
+}
+
+.div-block-6 {
+  position: static;
+  left: 60px;
+  top: 160px;
+  right: auto;
+  bottom: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 60px;
+  margin-left: 60px;
+  padding-top: 60px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-color: #121212;
+}
+
+.div-block-6.second {
+  top: 300px;
+  background-color: #121212;
+}
+
+.div-block-6.mainpage {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.div-block-7 {
+  margin-top: 14px;
+}
+
+.link-3 {
+  margin-right: 28px;
+  font-family: Jetbrainsmono, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.link-3:hover {
+  border-bottom: 1px solid #fff;
+  line-height: 20px;
+}
+
+.link-3.soon {
+  color: hsla(0, 0%, 100%, 0.3);
+}
+
+.div-block-8 {
+  margin-top: 12px;
+}
+
+.heading {
+  font-family: Jetbrainsmono, sans-serif;
+  color: #fff;
+  font-weight: 500;
+}
+
+.div-block-9 {
+  width: 100%;
+  height: 1px;
+  margin-top: 10px;
+  background-color: #fff;
+}
+
+.div-block-10 {
+  position: absolute;
+  top: 100px;
+  max-width: 70vw;
+}
+
+@font-face {
+  font-family: 'Jetbrainsmono';
+  src: url('../fonts/JetBrainsMono-ExtraBold.woff') format('woff'), url('../fonts/JetBrainsMono-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Jetbrainsmono';
+  src: url('../fonts/JetBrainsMono-Bold-Italic.woff') format('woff'), url('../fonts/JetBrainsMono-ExtraBold-Italic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Jetbrainsmono';
+  src: url('../fonts/JetBrainsMono-ExtraLight-Italic.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Jetbrainsmono';
+  src: url('../fonts/JetBrainsMono-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Jetbrainsmono';
+  src: url('../fonts/JetBrainsMono-Italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Jetbrainsmono';
+  src: url('../fonts/JetBrainsMono-Light-Italic.woff') format('woff'), url('../fonts/JetBrainsMono-SemiLight-Italic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Jetbrainsmono';
+  src: url('../fonts/JetBrainsMono-Medium-Italic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Jetbrainsmono';
+  src: url('../fonts/JetBrainsMono-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Jetbrainsmono';
+  src: url('../fonts/JetBrainsMono-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Jetbrainsmono';
+  src: url('../fonts/JetBrainsMono-Light.woff') format('woff'), url('../fonts/JetBrainsMono-SemiLight.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}

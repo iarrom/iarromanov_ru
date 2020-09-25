@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "iarromanov_public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
